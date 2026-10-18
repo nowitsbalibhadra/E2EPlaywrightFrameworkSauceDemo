@@ -1,0 +1,8 @@
+com\automation\base\BaseTest.class
+com\automation\pages\ConfirmationPage.class
+com\automation\pages\LoginPage.class
+com\automation\utils\BrowserFactory.class
+com\automation\utils\ConfigReader.class
+com\automation\pages\CartPage.class
+com\automation\pages\CheckoutPage.class
+com\automation\pages\InventoryPage.class

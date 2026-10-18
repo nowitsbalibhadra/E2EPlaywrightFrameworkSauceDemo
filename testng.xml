@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Playwright E2E + API Suite" verbose="1" parallel="false">
+
+    <!-- UI E2E Test -->
+    <test name="UI Purchase Flow Tests">
+        <classes>
+            <class name="com.automation.tests.PurchaseFlowTest"/>
+        </classes>
+    </test>
+
+    <!-- API Tests using Playwright built-in API testing -->
+    <test name="API Tests">
+        <classes>
+            <class name="com.automation.tests.ApiTest"/>
+        </classes>
+    </test>
+
+</suite>
